@@ -1,5 +1,5 @@
 # DiffusionModels
-A project in which we repurposed existing code for diffusion models from [1] in order to generate images based on a new landscapes dataset. We also experimented with hyperparameters to measure their impact on performance. This project was submitted as the final project for the course CS449: Deep Learning taught at Northwestern University (Evanston, Illinois, USA)
+A project in which we repurposed existing code for diffusion models from [1] in order to generate images based on a new landscapes dataset. We also experimented with hyperparameters to measure their impact on performance. This project was submitted as the final project for the course _CS449: Deep Learning_ taught at _Northwestern University (Evanston, Illinois, USA)_
 
 For further detail on the goals of the project, and analysis of the results, see report.pdf.
 
@@ -10,7 +10,7 @@ For further detail on the goals of the project, and analysis of the results, see
 2. ddpm.py
  * Contains the noising and denoising functions from [1] for the unconditional model. Also contains our code for saving and loading the model, and doing inference after the diffusion model has trained.
 
-###### Note: the code for the noising and denoising process of Diffusion is entirely from [1]. This is because our goal was not to start from the mathematical concepts of Diffusion from scratch, but to implement both a conditionally and unconditionally trained Diffusion Model. We focused on comparing the results from the 2 models and observing the results of changing hyperparameters for the noise schedule and UNet architecture.
+###### _Note: the code for the noising and denoising process of Diffusion is entirely from [1]. This is because our goal was not to start from the mathematical concepts of Diffusion from scratch, but to implement both a conditionally and unconditionally trained Diffusion Model. We focused on comparing the results from the 2 models and observing the results of changing hyperparameters for the noise schedule and UNet architecture._
 
 3. ddpm_conditional.py
  * Contains the noising and denoising functions from [1] for the conditional model.
