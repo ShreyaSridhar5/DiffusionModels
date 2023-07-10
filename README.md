@@ -1,7 +1,7 @@
 # DiffusionModels
-A project in which we repurposed code for diffusion models from [1] in order to generate images based on a new landscapes dataset. We also experimented with hyperparameters to measure their impact on performance. This project was submitted as the final project for the course _**CS449: Deep Learning**_ taught at _**Northwestern University (Evanston, Illinois, USA)**_ . 
+A project in which we generated images of landscapes using a diffusion model, and experimented with hyperparameters to measure their impact on performance. Note that we started with code from [1] and repurposed it for our needs. This project was submitted as the final project for the course _**CS449: Deep Learning**_ taught at _**Northwestern University (Evanston, Illinois, USA)**_ . 
 
-For further detail on the goals of the project, and analysis of the results, see report.pdf.
+For further detail on the goals of the project and analysis of the results, see report.pdf. 
 
 ## Important Files in this GitHub
 1. run_model.py
