@@ -25,17 +25,15 @@ For further detail on the goals of the project, and analysis of the results, see
  
 6. utils.py
  * A file from [1] with functions that save images produced by the diffusion model and normalize input images from the training and testing dataset
- modules
+
+7. modules
  * Includes the UNet architecture from [1].
 
-7. download_images.ipynb
+8. download_images.ipynb
  * Unzipping our dataset into the Jupyter environment
  * Deleting directories once our model is done, to save credits for computation
  * Zipping up our results from the model
  * Folders with our result images have additionally been uploaded to GitHub.
-
-8. modules.py
-  * Contains code from [1] 
 
 ## Works Cited
 [1] https://github.com/tcapelle/Diffusion-Models-pytorch
